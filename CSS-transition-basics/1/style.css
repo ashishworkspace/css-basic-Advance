@@ -1,0 +1,21 @@
+button{
+    color: white;
+    background-color: blue;
+    font-size: large;
+    border: none;
+    width: 300px;
+    height: 100px;
+
+    /*
+        transition means changing the state 
+        In order to have a transition 
+            1. select the transition (using tranition-property)
+            2. provide the duration  (using the transition-duration property)
+    */
+    transition-property: background-color; 
+    transition-duration: 1s;
+}
+
+button:hover{
+    background-color: green;
+}

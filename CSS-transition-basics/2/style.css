@@ -1,0 +1,35 @@
+.main{
+    width: 960px;
+}
+
+.container{
+    background-color: red;
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+    margin: 40px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    transition-property: translate();
+    transition-duration: 3s;
+}
+
+#ease{
+    transition-timing-function: ease;
+}
+#linear{
+    transition-timing-function: linear;
+}
+#ease-in{
+    transition-timing-function: ease-in;
+}
+#ease-out{
+    transition-timing-function: ease-out;
+}
+#ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+.container:hover{
+    transform: translate(800px, 0);
+}
